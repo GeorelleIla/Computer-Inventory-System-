@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Computer Inventory System</title>
+  <link rel="stylesheet" href="StaffInterface.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <h2>Computer Inventory System</h2>
+      <div class="form-group">
+        <label>Item Code:</label>
+        <input type="text">
+        <label>Item Name:</label>
+        <input type="text">
+        <label>Category:</label>
+        <input type="text">
+        <label>Price:</label>
+        <input type="text">
+        <label>Stock:</label>
+        <input type="text">
+      </div>
+      <div class="button-group">
+        <button class="gray">Add</button>
+        <button class="gray">Edit</button>
+        <button class="gray">Delete</button>
+        <button class="yellow">Order</button>
+      </div>
+    </div>
+    
+    <div class="right-panel">
+      <div class="top-bar">
+        <button class="logout">Logout</button>
+        <input type="text" placeholder="Search">
+        <input type="text" placeholder="Sort by: (Category)">
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>Item Code</th>
+            <th>Item Name</th>
+            <th>Category</th>
+            <th>Price</th>
+            <th>Stock</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Iphone 12</td>
+            <td>Phone</td>
+            <td>$1500</td>
+            <td>5</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Iphone 15</td>
+            <td>Phone</td>
+            <td>$3000</td>
+            <td>2</td>
+          </tr>
+          <!-- More rows here -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
